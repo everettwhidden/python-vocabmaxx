@@ -14,8 +14,11 @@ A common challenge in creating a wordle-like game is handling duplicate letters 
 
 Here is how I overcame this challenge:
 
-**The Pre-Scan** The program loops through the user's guess and compares it to the correct word, before displaying a result with colored letters. This pre-scan counts and collects all the correct index matches (**Greens**) into a 'letter_counts' dictionary.
-**The Main Loop** As it prints the display from left to right, the loop checks the 'letter_counts' dictionary. Each letter is checked at first to see if its index in the user's guess matches that of the actual word. If so, the letter is marked as green. Else, if the number of occurances of a letter in the user's guess (tracked in 'letters_count') is less than the actual number of occurances, then the letter is marked as yellow. If not, then it is marked as grey. 
+### 1. The Pre-Scan 
+The program loops through the user's guess and compares it to the correct word, before displaying a result with colored letters. This pre-scan counts and collects all the correct index matches (**Greens**) into a 'letter_counts' dictionary.
+
+### 2. The Main Loop 
+As it prints the display from left to right, the loop checks the 'letter_counts' dictionary. Each letter is checked at first to see if its index in the user's guess matches that of the actual word. If so, the letter is marked as green. Else, if the number of occurances of a letter in the user's guess (tracked in 'letters_count') is less than the actual number of occurances, then the letter is marked as yellow. If not, then it is marked as grey. 
 
 ## Requirements and Installation
 
