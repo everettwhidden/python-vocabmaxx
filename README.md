@@ -26,6 +26,6 @@ Before you play, have Python installed and the 'colorama' library downloaded.
 
 1. Clone or download this repository.
 2. Have your word list file ('wordlewords_txt') saved in the same folder as the script. 
-3. 3. Install the required dependency via terminal:
+3. Install the required dependency via terminal:
    ```bash
    pip install colorama
